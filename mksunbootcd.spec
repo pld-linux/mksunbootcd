@@ -1,5 +1,5 @@
 Summary:	Makes bootable ISO images for sparc systems
-Summary(pl):	Tworzy obrazy ISO przygotowane do wystartowania na systemach sparc.
+Summary(pl):	Tworzy obrazy ISO przygotowane do wystartowania na systemach sparc
 Name:		mksunbootcd
 Version:	1.0
 Release:	1
@@ -26,13 +26,14 @@ BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-`mksunbootcd' combines filesystem partitions for Sun Microsys- tems,
+`mksunbootcd' combines filesystem partitions for Sun Microsystems,
 Inc. computers into an image suitable for writing to a compact disc,
 that will allow the disc to be booted on the sun3, sun3x, sun4, sun4c,
 sun4m and sun4u platforms.
 
 %description -l pl
-Tworzy obrazy ISO ktore moga byc uzyte do wystartowania systmow sparc.
+Tworzy obrazy ISO, które mog± byæ u¿yte do wystartowania systemów
+sparc (sun3, sun3x, sun4, sun4c, sun4m, sun4u).
 
 %prep
 %setup -q -n %{name}-%{version}
