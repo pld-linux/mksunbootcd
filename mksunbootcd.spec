@@ -21,7 +21,7 @@ Tworzy obrazy ISO, które mog± byæ u¿yte do wystartowania systemów
 sparc (sun3, sun3x, sun4, sun4c, sun4m, sun4u).
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__autoconf}
@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc README NEWS THANKS INSTALL COPYING
+%attr(755,root,root) %{_bindir}/*
