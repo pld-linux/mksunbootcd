@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/mksunbootcd/%{name}-%{version}.tar.gz
+# Source0-md5:	edc50758db95aefa137d4ba235aa3dc1
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
