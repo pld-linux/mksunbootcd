@@ -2,7 +2,7 @@ Summary:	Makes bootable ISO images for sparc systems
 Summary(pl):	Tworzy obrazy ISO przygotowane do wystartowania na systemach sparc
 Name:		mksunbootcd
 Version:	1.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/System
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/mksunbootcd/%{name}-%{version}.tar.gz
