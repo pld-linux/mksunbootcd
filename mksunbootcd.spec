@@ -23,7 +23,7 @@ sparc (sun3, sun3x, sun4, sun4c, sun4m, sun4u).
 %setup -q -n %{name}-%{version}
 
 %build
-autoconf
+%{__autoconf}
 %configure
 
 %{__make}
