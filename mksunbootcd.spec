@@ -1,5 +1,5 @@
 Summary:	Makes bootable ISO images for sparc systems
-Summary(pl.UTF-8):   Tworzy obrazy ISO przygotowane do wystartowania na systemach sparc
+Summary(pl.UTF-8):	Tworzy obrazy ISO przygotowane do wystartowania na systemach sparc
 Name:		mksunbootcd
 Version:	1.0
 Release:	3
